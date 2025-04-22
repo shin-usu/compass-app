@@ -121,8 +121,6 @@ final class NavigationViewModel: ObservableObject {
     }
 }
 
-import SwiftUI
-
 struct ContentView: View {
     @StateObject private var viewModel = NavigationViewModel()
 
